@@ -1,0 +1,94 @@
+.txtuser{
+    -fx-text-box-border: transparent;
+    -fx-text-fill: #ff8826;
+}
+
+.txtuser:focused{
+    -fx-border-width : 2;
+    -fx-background-color:#ffffff;
+    -fx-focus-color : #ff8826;
+    -fx-background : #ffffff;
+    -fx-border-color: transparent transparent BE1E2D transparent;
+}
+
+.btnexit:hover{
+    -fx-background-color : #ffab67;
+}
+
+.btnexit{
+    -fx-color: #ffffff;
+    -fx-background-color: #ff8826;
+    -fx-background-radius : 0;
+    -fx-border: 1;
+}
+
+.pilihgambar{
+    -fx-background-color: #ff8826;
+    -fx-background-radius : 0;
+    -fx-border: 2;
+    -fx-cursor: hand;
+}
+
+.btncrud{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #ff8826;
+    -fx-background-radius : 0;
+    -fx-border: 2;
+    -fx-cursor: hand;
+}
+
+.btncrud:hover{
+    -fx-background-color: #ffab67;
+    -fx-opacity: 0.5;
+}
+
+.cbsosis{
+    -fx-background-color: #ffffff;
+}
+
+.cbsosis > .list-cell{
+    -fx-background-color: #ffffff;
+    -fx-background-radius : 0;
+    -fx-text-fill: #981824;
+}
+
+.cbsosis > .arrow-button{
+    -fx-text-fill: #ffab67;
+}
+
+.cbsosis .list-cell:hover{
+    -fx-background-color: #ffab67;
+    -fx-text-fill: #ffffff;
+}
+
+.cbsosis .cell:selected{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #ff8826;
+}
+
+.table-view{
+    -fx-background-color:transparent;
+    -fx-border-color:#ff8826;
+    -fx-border-radius:0px;
+    -fx-padding:0px;
+}
+.table-view .table-column{
+    -fx-alignment:CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color:#ff8826;
+    -fx-background-insets: 0 0 0 0;
+    -f-background-radius:8px 8px 0px 0px;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size:40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill:#fff;
+    -fx-font-family:"Arial";
+}
+
+.table-view .cell{
+    -fx-border-width: 0;
+}

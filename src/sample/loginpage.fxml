@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="250.0" style="-fx-background-color: #cbffc7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <AnchorPane fx:id="loginpage" prefHeight="300.0" prefWidth="224.0" style="-fx-background-color: #ff8826;">
+         <children>
+            <AnchorPane prefHeight="89.0" prefWidth="250.0" style="-fx-background-color: #cbffc7;">
+               <children>
+                  <Label fx:id="labellogin" alignment="CENTER" layoutX="34.0" layoutY="25.0" prefHeight="39.0" prefWidth="182.0" text="Amplangkuu" textAlignment="CENTER" textFill="#ff8826">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="txtuserlog" layoutX="34.0" layoutY="106.0" prefHeight="26.0" prefWidth="182.0" promptText="Username">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtpasslog" layoutX="34.0" layoutY="148.0" prefHeight="26.0" prefWidth="182.0" promptText="Password">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="btnlog" layoutX="34.0" layoutY="197.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="26.0" prefWidth="182.0" style="-fx-background-color: #cbffc7;" text="LET'S GO" textFill="#ff8826">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="labelbelum" layoutX="34.0" layoutY="260.0" text="Belum Ada Akun?" textFill="#cbffc7">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="pindahregis" layoutX="145.0" layoutY="260.0" onMouseClicked="#pindahregis" text="Register Bro" textFill="#cbffc7">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="registerpage" prefHeight="300.0" prefWidth="250.0" visible="false">
+         <children>
+            <Label fx:id="labelregis" alignment="CENTER" layoutX="34.0" layoutY="28.0" prefHeight="39.0" prefWidth="182.0" text="REGISTER" textAlignment="CENTER" textFill="#ff8826">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtuserreg" layoutX="34.0" layoutY="79.0" prefHeight="26.0" prefWidth="182.0" promptText="Username">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtpassreg" layoutX="34.0" layoutY="118.0" prefHeight="26.0" prefWidth="182.0" promptText="Password">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="btnreg" layoutX="34.0" layoutY="197.0" mnemonicParsing="false" onMouseClicked="#register" prefHeight="26.0" prefWidth="182.0" style="-fx-background-color: #ff8826;" text="LET'S GO" textFill="#cbffc7">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="labelsudah" layoutX="34.0" layoutY="254.0" text="Sudah Ada Akun?" textFill="#ff8826">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="pindahlogin" layoutX="155.0" layoutY="254.0" onMouseClicked="#pindahlogin" text="Login Bro" textFill="#ff8826">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <PasswordField fx:id="txtkpassreg" layoutX="34.0" layoutY="157.0" prefHeight="26.0" prefWidth="182.0" promptText="Konfirmasi Password">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
